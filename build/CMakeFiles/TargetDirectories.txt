@@ -1,0 +1,10 @@
+C:/Users/USER/OneDrive/Documents/Sci Comp/room-picker/build/CMakeFiles/server.dir
+C:/Users/USER/OneDrive/Documents/Sci Comp/room-picker/build/CMakeFiles/package.dir
+C:/Users/USER/OneDrive/Documents/Sci Comp/room-picker/build/CMakeFiles/package_source.dir
+C:/Users/USER/OneDrive/Documents/Sci Comp/room-picker/build/CMakeFiles/edit_cache.dir
+C:/Users/USER/OneDrive/Documents/Sci Comp/room-picker/build/CMakeFiles/rebuild_cache.dir
+C:/Users/USER/OneDrive/Documents/Sci Comp/room-picker/build/_deps/crow-build/CMakeFiles/uninstall.dir
+C:/Users/USER/OneDrive/Documents/Sci Comp/room-picker/build/_deps/crow-build/CMakeFiles/package.dir
+C:/Users/USER/OneDrive/Documents/Sci Comp/room-picker/build/_deps/crow-build/CMakeFiles/package_source.dir
+C:/Users/USER/OneDrive/Documents/Sci Comp/room-picker/build/_deps/crow-build/CMakeFiles/edit_cache.dir
+C:/Users/USER/OneDrive/Documents/Sci Comp/room-picker/build/_deps/crow-build/CMakeFiles/rebuild_cache.dir

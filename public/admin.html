@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panel Admin - Bilik</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="mobile-header">
+    <div class="header-inner">
+      <h2>Panel Pentadbir</h2>
+      <a href="/" class="admin-link">⬅️ Kembali</a>
+    </div>
+  </header>
+
+  <main class="mobile-container">
+    <!-- Log Masuk Admin -->
+    <section id="auth-box" class="card">
+      <h3>Pengesahan Admin</h3>
+      <p class="hint">Masukkan password untuk mengawal sistem.</p>
+      <div class="auth-inputs">
+        <input type="password" id="admin-pass" placeholder="Password (6-digit)">
+        <button id="btn-login" class="btn btn-action">Buka</button>
+      </div>
+      <p id="auth-err" class="err-text hidden">Kata laluan tidak sah!</p>
+    </section>
+
+    <!-- Dashboard Kawalan (Muncul selepas login berjaya) -->
+    <section id="admin-panel" class="card hidden">
+      <div class="control-row">
+        <label>Status Pemilihan:</label>
+        <div class="btn-group">
+          <button id="btn-open" class="btn btn-green">Buka (Start)</button>
+          <button id="btn-lock" class="btn btn-yellow">Kunci (Lock)</button>
+        </div>
+      </div>
+
+      <div class="control-row">
+        <label>Eksport ke WhatsApp:</label>
+        <button id="btn-export" class="btn btn-action full-width">📋 Salin Format Teks</button>
+      </div>
+
+      <div class="control-row border-top">
+        <label class="danger-label">Kawasan Bahaya:</label>
+        <button id="btn-reset" class="btn btn-red full-width">⚠️ Kosongkan Semua Bilik</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="admin.js"></script>
+</body>
+</html>

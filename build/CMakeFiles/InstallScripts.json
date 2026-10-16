@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/USER/OneDrive/Documents/Sci Comp/room-picker/build/cmake_install.cmake",
+		"C:/Users/USER/OneDrive/Documents/Sci Comp/room-picker/build/_deps/crow-build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

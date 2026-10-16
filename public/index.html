@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Pilih Pasukan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="mobile-header">
+    <div class="header-inner">
+      <h2>Pilih Bilik Pasukan</h2>
+      <a href="/admin.html" class="admin-link">⚙️ Admin</a>
+    </div>
+    <div id="system-banner" class="banner banner-waiting">Memuatkan status...</div>
+  </header>
+
+  <main class="mobile-container">
+    <!-- Kad Pengenalan Diri -->
+    <section class="user-strip">
+      <div id="name-form" class="name-entry">
+        <input type="text" id="username-input" placeholder="Masukkan nama anda..." maxlength="25" autocomplete="off">
+        <button id="btn-save-name" class="btn btn-action">Simpan</button>
+      </div>
+      <div id="user-display" class="user-display hidden">
+        <span>Peserta: <strong id="lbl-username"></strong></span>
+        <button id="btn-edit-name" class="btn-link">Tukar</button>
+      </div>
+    </section>
+
+    <!-- Bar Maklumat Ringkas -->
+    <div class="status-summary">
+      <span>Slot Terisi: <strong id="total-filled">0</strong>/100</span>
+      <span>Bilik Anda: <strong id="user-team-name">Tiada</strong></span>
+    </div>
+
+    <!-- Grid / Senarai Bilik (Mobile Stack) -->
+    <div id="rooms-list" class="rooms-container">
+      <!-- Diisi secara dinamik melalui main.js -->
+    </div>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
